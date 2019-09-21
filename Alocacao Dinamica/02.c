@@ -11,6 +11,7 @@ int main(void){
 
     printf("Entre com o numero de valores: ");
     scanf("%d",&num_componentes);
+    //alocando espaco pro vetor dinamico.
     x = (float *)malloc(num_componentes*sizeof(float));
 
     if(x == NULL)

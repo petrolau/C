@@ -57,5 +57,7 @@ int main(void)
     for( i = 0; i < num_componentes; i ++)
         printf("%2.f\n",v[i]);
 
+    //liberando o espaco apos ser utilizado
+    free(v);
     return 0;
 }

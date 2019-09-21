@@ -55,9 +55,7 @@ int main(void)
     //percorrendo o vetor e imprimindo os valores
     printf("\n********* Valores do vetor dinamico **********\n\n");
     for( i = 0; i < num_componentes; i ++)
-        printf("%.2f\n",v[i]);
+        printf("%2.f\n",v[i]);
 
-    //liberando o espaco de memoria alocado
-    free(v);
     return 0;
 }

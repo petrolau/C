@@ -10,7 +10,7 @@ int fat (int number){
 
 int main (void){
     int number, result;
-    printf("Type a non-negative number: ");
+    printf("Type a positive number: ");
     scanf ("%d",&number);
     result = fat(number); //Calling the function 
     printf("Factorial = %d\n",result);

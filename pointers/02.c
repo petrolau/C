@@ -5,8 +5,8 @@ void troca(int *px, int *py) //recebe dois ponteiros que apontam para inteiros
 {
     int temp; //vai guardar o valor de uma variavel.
     temp = *px;
-    *px = *py;
-    *py = temp;
+    *px = *py; //conteudo de px recebe o conteudo de py.
+    *py = temp;//conteudo de py recebe o conteudo de temp.
 }
 
 int main (void)

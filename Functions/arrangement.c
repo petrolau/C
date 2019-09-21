@@ -1,31 +1,31 @@
 #include <stdio.h> //printf and scanf
 
-//formula => result = n!/(n-k)!
-int arrangement (int n, int k)
+//formula => resultado = n!/(n-k)!
+int arranjo (int n, int k)
 {
-    int factorial = 1;
-    int factorial2 = 1;
-    int divider = (n-k);
+    int fatorial = 1;
+    int fatorial2 = 1;
+    int divisor = (n-k);
     for(int i = 1; i <= n; i++)
     {
-        factorial *= i;
+        fatorial *= i;
     }
     for(int i = 1;i <= divider; i++)
     {
-        factorial2 *=i;
+        fatorial2 *=i;
     }
-    int result = (factorial/factorial2);    
-    return result;
+    int resultado = (factorial/factorial2);    
+    return resultado;
 }
 
 
 int main (void)
 {
-    int n,k,result;
-    printf("Type a positive number: ");
+    int n,k,resultado;
+    printf("Digite um numero positivo:\n");
     scanf("%d",&n);
-    printf("Type another positive number: ");
+    printf("Digite outro numero positivo:\n");
     scanf("%d",&k);
-    result = arrangement(n,k);
-    printf("The result of %d!/(%d-%d)! is: %d\n",n,n,k,result);
+    result = arranjo(n,k);
+    printf("O resultado de %d!/(%d-%d)! eh: %d\n",n,n,k,result);
 }   

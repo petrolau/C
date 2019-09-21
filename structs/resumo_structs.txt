@@ -1,4 +1,11 @@
 #include <stdio.h> //printf and scanf
+//registro x com 3 campos que pode ser usado para armazenas datas
+struct {
+    int dia;
+    int mes;
+    int ano;
+}x;
+
 //registro = pacote de variaveis de diferentes tipos.
 //campo do registro = cada variavel.
 struct dma {

@@ -29,7 +29,7 @@ struct ficha_aluno //nome da struct --> tipo de dado.
 
 struct ficha_aluno aluno;
 
-printf("\n ---------Cadastro de Aluno ---------\n\n\n");
+printf("\n --------- Cadastro de Aluno ---------\n\n\n");
 
 printf("Nome do aluno...:");
 fgets(aluno.nome,40,stdin); 
@@ -39,6 +39,8 @@ scanf("%d",&aluno.matricula);
 
 printf("Digite a nota...: ");
 scanf("%f",&aluno.nota);
+
+printf("\n ---------- Lendo os dados da struct ---------\n");
 
 printf("\nNome...= %s",aluno.nome);
 printf("Matrícula... = %d\n",aluno.matricula);

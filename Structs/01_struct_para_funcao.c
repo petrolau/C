@@ -13,7 +13,7 @@ void imprime(ponto p){ //usando o typedef nao preciso usar o "struct" antes de p
 
 int main(void)
 {
-    struct ponto p;
+    ponto p; //declaracao sem struct por conta do typedef
     printf("Digite as coordenadas do ponto (x,y): ");
     scanf("%f %f",&p.x,&p.y); //acessando x e y da struct
     imprime(p);

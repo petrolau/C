@@ -7,7 +7,7 @@ typedef struct ponto
     float y;
 }ponto;
 
-void imprime(struct ponto p){
+void imprime(ponto p){ //usando o typedef nao preciso usar o "struct" antes de ponto p.
     printf("O ponto fornecido foi: (%.2f,%.2f)\n",p.x,p.y);
 }
 

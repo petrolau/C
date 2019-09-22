@@ -18,7 +18,7 @@ union nome_union
 union tipoU //memoria compartilhada
 {
     short int x;//16 bits
-    unsigned char c[2];//8 bits
+    unsigned char c[2];//8 bits para cada posicao da array.
     //irá reservar apenas a memória do maior, 16 bits.
 };
 //na struct, ela guarda memória para todas as variáveis.
